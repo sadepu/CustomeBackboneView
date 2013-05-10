@@ -1,0 +1,26 @@
+<div style="text-align: center;background-color: #C6F5FA">
+	<br />
+	<p>This button is with different id in both home page and profile pages.</p>
+	<p>By multiple navigation to home and profile pages multiple views could be created,</p>
+	<p> but it is handled by <b>custom backbone view</b></p>
+	<div class="class_button">
+		<input id="home_btn" type="button" value="I am Home+"/>
+	</div>
+	<br />
+	<br />
+	<p>These buttons are with same id in both the page.</p>
+	<p>Check the console for tracing button events.</p>
+	
+	<div class="class_button">
+		<input id="details" type="button" value="Home View Details"/>
+		<input id="go_id" type="button" value="Go" />
+	</div>
+	<p>Multiple events are triggered though because of same id in same container.</p>
+	<p><b>Custom backbone view</b> will resolve this kind of issues.</p>
+	<br />
+	<br />
+	<div>
+		<span>Navigate to:</span>
+		<a href="#profile">Profile</a>
+	</div>
+</div>
